@@ -1,0 +1,11 @@
+#input from Rest
+1. http post to sesi--> http://localhost:8080/sesi
+{
+    "name":"advance database",
+    "daftarPeserta":[
+        {
+            "rel": "daftarPeserta",
+            "href": "http://localhost:8080/peserta/p001"
+        }]
+    
+}
